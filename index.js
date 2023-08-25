@@ -3,10 +3,6 @@ bot.on('message', msg => {OnMessage(msg)});
 // Оператор
 var operator = '1884219679';
 //
-
-SetMyCommands([ // Комманды
-	['/start', 'Стартовать']
-]);
 // Простой сервер
 const fs = require('fs');
 function SimpleServerCommand(action, d) {
